@@ -1,0 +1,76 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(rgba(15, 108, 184, 0.8),rgba(185, 187, 176, 0.8)), url(./images/rock.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.979);
+    margin-top: 8%;
+  }
+p a:hover{
+    color: rgb(13, 24, 185);
+}
+  h1 {
+    text-align: center;
+    color:#000;
+    margin-top: 0;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #060606;
+  }
+
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color:#cddb0b8c;
+  }
+
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .login-link a {
+    color:l;
+    text-decoration: none;
+  }
+
+  .login-link a:hover {
+    text-decoration: underline;
+  }
